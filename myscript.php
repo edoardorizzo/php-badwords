@@ -1,3 +1,7 @@
 <?php
 
-echo 'Ciao '. $_POST['nome'];
+$lunghezzaInput = strlen($_POST['cognome']);
+
+echo 'Ciao '. $_POST['nome'] .' ' .$lunghezzaInput .' ';
+
+
